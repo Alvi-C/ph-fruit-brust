@@ -33,9 +33,65 @@
     <script src="https://kit.fontawesome.com/731c12ea5b.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <div class="bg-red-500">1</div>
-    <div class="bg-green-500">2</div>
+<body class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header>
+        <!-- navbar -->
+        <nav class="mt-8">
+            <div class="navbar lg:bg-fruit-brust rounded-full px-1 py-2 lg:px-6 lg:py-4">
+                <!-- menu list -->
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-sm lg:text-white font-normal">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <a href="#">
+                    <div class="navbar-center lg:mr-40">
+                        <div class="normal-case text-xl">
+                            <div class="flex items-center justify-center space-x-2">
+                                <img class="w-7 lg:w-12" src="./images/logo.png" alt="" />
+                                <h2 class="lg:text-white font-bold text-xl lg:text-3xl">Fruit Brust</h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Search bar -->
+                <div class="hidden lg:block lg:navbar-end ">
+                    <div class="relative ml-16">
+                        <input
+                            class="input input-bordered rounded-full w-[400px] max-w-xs placeholder:text-sm placeholder:font-light"
+                            type="text" placeholder="Search here" />
+                        <button class="absolute top-30 right-5 bottom-3"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero banner -->
+
+    </header>
+
 </body>
 
 </html>
